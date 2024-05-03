@@ -8,6 +8,8 @@
 
 Halstack is an Open Source Design System built and maintained by DXC Technology with the purpose of providing all the necessary tools for designing and implementing accessible, intuitive and consistent User Experiences with React.
 
+[![Check Links](https://github.com/Mil4n0r/halstack-react/actions/workflows/links.yml/badge.svg)](https://github.com/Mil4n0r/halstack-react/actions/workflows/links.yml)
+
 ## How to start
 
 You can start using Halstack right now:
