@@ -1,2 +1,2 @@
 http://localhost
-.*%PUBLIC_URL%.*
+%25PUBLIC_URL%25
