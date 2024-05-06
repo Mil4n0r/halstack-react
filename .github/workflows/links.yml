@@ -1,13 +1,11 @@
 name: Check links
 
 on:
-  repository_dispatch:
-  workflow_dispatch:
   push:
     branches:
       - master
-    paths-ignore:
-      - "app/**"
+    paths:
+      - "!app/**"
 
 jobs:
   linkChecker:
