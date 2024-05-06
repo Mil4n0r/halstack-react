@@ -6,8 +6,6 @@ on:
   push:
     branches:
       - master
-    paths:
-      - "!app/**"
 
 jobs:
   linkChecker:
@@ -18,3 +16,5 @@ jobs:
       - name: Link Checker
         id: lychee
         uses: lycheeverse/lychee-action@v1
+        with:
+          args: --exclude-path app
